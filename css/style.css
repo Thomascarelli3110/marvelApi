@@ -1,0 +1,40 @@
+/* 175cab8fddb544eb462bd26a779524187cd8258e8f62bf23851431279216b492ff5fd2062
+ */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background-color: rgba(255, 245, 224,1);
+}
+
+.navbar {
+    background-color: #C70039;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.navbar div {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.navbar div a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.root {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2remll;
+}
+
+
+
