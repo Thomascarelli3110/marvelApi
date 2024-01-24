@@ -27,14 +27,48 @@ body {
 .navbar div a{
     color: white;
     text-decoration: none;
-    
 }
 
-.root {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2remll;
+.navbar div a:hover{
+    font-size: 1.1rem;
+    transition: 500ms;
+    color: rgb(107, 106, 106);
 }
+
+
+.root {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 3rem;
+    padding: 20px;
+}
+
+.characters-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.characters-container img{
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 25px;
+    padding: 2rem;
+}
+
+
+
+.characters-container a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
 
 
 
