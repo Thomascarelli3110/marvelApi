@@ -1,0 +1,2 @@
+export const charactersMarvelAPI = "https://gateway.marvel.com:443/v1/public/characters?ts=1&apikey=f62bf23851431279216b492ff5fd2062&hash=fb9d6f13b82af99a133b6e97d4fafa5a&limit=50"
+export const comicsMarvelAPI = "https://gateway.marvel.com:443/v1/public/stories?apikey=f62bf23851431279216b492ff5fd2062&hash=fb9d6f13b82af99a133b6e97d4fafa5a&limit=50"

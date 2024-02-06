@@ -8,11 +8,13 @@
 }
 
 body {
-    background-color: rgba(255, 245, 224,1);
+    background-color: #191919
 }
 
+/*NAVBAR*/
+
 .navbar {
-    background-color: #C70039;
+    background-color: #d60b11;
     padding: 1rem;
     display: flex;
     justify-content: center;
@@ -32,22 +34,17 @@ body {
 .navbar div a:hover{
     font-size: 1.1rem;
     transition: 500ms;
-    color: rgb(107, 106, 106);
+    color: rgb(70, 68, 68);
 }
 
+/*DISPLAYCHARACTERS*/
 
-.root {
+
+.characters-container {
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 3rem;
     padding: 20px;
-}
-
-.characters-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: start;
 }
 
 .characters-container img{
@@ -61,11 +58,67 @@ body {
 
 .characters-container a {
     text-decoration: none;
-    color: black;
+    color: #FFFBF5;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+
+/*HOME*/
+
+.first-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+}
+
+.first-container h1 {
+    font-size: 5.5rem;
+    font-family: 'Bebas Neue', cursive;
+    color: #FFFBF5;
+    margin-top: 2rem;
+    text-shadow: 2px 2px 4px rgb(216, 63, 49);
+}
+
+.first-container p {
+    text-align: center;
+    font-size: 1.3rem;
+    color: #FFFBF5;
+    padding: 5rem;
+}
+
+/*SINGLECHARACTER*/
+
+.container-character {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    color: white;
+    padding: 2rem;
+}
+
+.container-character img {
+    border: 10px solid black;
+    border-radius: 10px;
+}
+
+
+.container-character h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 4px rgb(216, 63, 49);
+}
+
+.container-character p {
+    text-align: center;
+    font-size: 1.4rem;
+    color: #FFFBF5;
+    padding: 2rem;
+}
+
 
 
 
