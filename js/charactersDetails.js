@@ -14,6 +14,7 @@ export async function getCharacterId() {
     let data =
     `
 
+
     <div class="container">
     
         <div class="container-character">
